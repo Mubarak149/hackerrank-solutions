@@ -1,19 +1,25 @@
-# hackerrank-solutions
-My HackerRank solutions in Python with a focus on Algorithms, Data Structures, Mathematics, and AI/ML challenges.
-
-# HackerRank Solutions – AI Engineering Focus
+# HackerRank Solutions – AI Engineering & Back-end Focus
 
 This repository contains my solutions to various [HackerRank](https://www.hackerrank.com/) challenges.  
-The solutions are written primarily in **Python** and cover topics like:
+The solutions are written in **Python** and cover topics relevant to **AI Engineering** and **Back-end Development**.
 
-- Algorithms & Data Structures
-- Mathematics & Probability
-- Artificial Intelligence & Machine Learning challenges
+## 🎯 Why this repo?
+I use this repo to practice and demonstrate:
+- Strong **problem-solving skills** with algorithms and data structures  
+- **Back-end engineering skills** such as data handling, optimization, and clean code practices  
+- **AI engineering** by applying machine learning libraries and solving AI/ML-related challenges without reinventing the math  
 
-The goal is to showcase problem-solving skills relevant to **AI Engineering** roles.
+---
 
-## Repository Structure
-- `python/algorithms/` – classic algorithm problems
-- `python/data-structures/` – arrays, linked lists, stacks, etc.
-- `python/ai/` – ML & statistics problems
-- `notebooks/` – detailed AI/ML problem explanations in Jupyter Notebooks
+## 📂 Repository Structure
+- `algorithms/` – classic algorithm problems  
+- `data_structures/` – arrays, linked lists, stacks, trees, graphs  
+- `backend/` – problems involving databases, queries, and system design logic  
+---
+
+## 🚀 How to Use
+Clone the repo and run any solution:
+```bash
+git clone https://github.com/Mubarak149/hackerrank-solutions.git
+cd hackerrank-solutions/algorithms
+python solve_me_first.py
