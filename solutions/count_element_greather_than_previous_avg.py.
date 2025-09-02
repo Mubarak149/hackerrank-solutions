@@ -1,0 +1,28 @@
+"""
+Problem: Count Elements Greater Than Previous Average
+
+You are given an array of positive integers representing response times for each day.  
+For each element in the array (except the first one), calculate the average of all previous elements.  
+If the current element is strictly greater than this average, count it.
+
+Return the total number of such elements.
+"""
+
+
+def countResponseTimeRegressions(responseTimes):
+    count = 0
+    total = 0  # running sum of previous elements
+
+    for i in range(len(responseTimes)):
+        if i == 0:  # skip the first element
+            total += responseTimes[i]
+            continue
+
+        avg = total / i  # average of all previous elements
+        if responseTimes[i] > avg:
+            count += 1
+
+        total += responseTimes[i]
+
+    return count
+
